@@ -45,4 +45,8 @@ sourceSets {
 dependencies {
     compile "ch.qos.logback:logback-classic:1.2.1"
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+}
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.2.71'
 }

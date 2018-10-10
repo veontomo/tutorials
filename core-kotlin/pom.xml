@@ -61,6 +61,11 @@
             <version>3.3.0</version>
             <type>pom</type>
         </dependency>
+        <dependency>
+            <groupId>com.beust</groupId>
+            <artifactId>klaxon</artifactId>
+            <version>3.0.4</version>
+        </dependency>
     </dependencies>
 
     <properties>
